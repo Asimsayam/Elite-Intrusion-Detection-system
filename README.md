@@ -41,34 +41,34 @@ To ensure the system functions correctly, follow these specific file organizatio
 Validated against a massive corpus of over **300,000+ packets**, the system demonstrates industrial-grade reliability:
 
 * **Overall Accuracy:** 99.8280%
-* **Precision:** 1.00 (100%) — **Zero False Alarms** (The system only alerts on genuine threats).
-* **Recall:** 1.00 (100%) — **Zero Missed Threats** (Every attack is successfully intercepted).
-* **Blind Test Performance:** Maintained a **100% detection rate** on 9,563 truly unseen packets.
+* **Precision:** 1.00 (100%) — **Zero False Alarms**
+* **Recall:** 1.00 (100%) — **Zero Missed Threats**
 * **Inference Latency:** < 1.5ms per packet, ensuring seamless real-time protection.
 
 ---
 
-### 🔬 Explainable AI (XAI) Integration
-To solve the "Black Box" problem of traditional AI, we have integrated **SHAP (SHapley Additive exPlanations)**:
+### 🚀 System Operations & Modules
+Each component of the Elite IDS serves a specific role in your security infrastructure:
 
-* **Transparency:** For every alert, the system identifies and displays the **Primary Reason**.
-* **Actionable Insights:** Security analysts can instantly see which specific network feature (e.g., Destination Port or Flow Duration) triggered the detection.
+* **`app.ipynb` (Manual Scanning Hub):** Used for manual file analysis. If you have captured traffic or specific logs, use this notebook to scan files and audit data for hidden threats.
+* **`dashboard.py` (Visual Analytics):** The Command Center. It provides a real-time visual representation of detection results, threat levels, and system health.
+* **`sniffer.py` (Live WiFi Detection):** The Front-line Sensor. Run this to monitor your Live WiFi/Network traffic. It captures packets on-the-fly and sends them to the engine for immediate detection.
+* **`main_backend.py`:** The high-speed inference engine that powers all detection logic via FastAPI.
 
 ---
 
-### 🚀 Key Technical Pillars
-* **Real-Time SOC Dashboard:** Featuring live-syncing system time, dynamic threat charts, and a high-visibility "Neon-Cyber" UI.
-* **FastAPI Backend:** Built for high-speed, asynchronous inference that does not block underlying network traffic.
-* **Intelligent Thresholding:** Employs a **3.0 Sigma (Standard Deviation)** formula to dynamically adjust anomaly sensitivity.
-* **Automated Mitigation:** Integrated **SMTP_SSL** triggers for instantaneous email notifications upon critical breaches.
+### 🔬 Explainable AI (XAI) Integration
+To solve the "Black Box" problem, we use **SHAP**:
+* **Transparency:** Every alert identifies the **Primary Reason** (e.g., Destination Port or Flow Duration) so analysts know exactly why an alert was triggered.
 
 ---
 
 ### 💻 Deployment Guide
 1.  **Environment Setup:** `pip install -r requirements.txt`
-2.  **Intelligence Engine (Backend):** `uvicorn main_backend:app`
-3.  **Visualization Portal (Frontend):** `python dashboard.py`
-4.  **Network Sensor (Sniffer):** `python sniffer.py`
+2.  **Start Backend:** `uvicorn main_backend:app`
+3.  **Launch Dashboard:** `python dashboard.py`
+4.  **Monitor Live Traffic:** `python sniffer.py` (Runs on Live WiFi)
+5.  **Audit Data:** Open `app.ipynb` for manual file-based scanning.
 
 ---
 
