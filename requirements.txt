@@ -1,0 +1,29 @@
+# --- Core Intelligence & Machine Learning ---
+tensorflow>=2.15.0
+scikit-learn>=1.3.0
+pandas>=2.1.0
+numpy>=1.24.0
+joblib>=1.3.0
+
+# --- Explainable AI (XAI) ---
+shap>=0.44.0
+
+# --- Networking & Packet Sniffing ---
+scapy>=2.5.0
+
+# --- Backend API (FastAPI) ---
+fastapi>=0.109.0
+uvicorn>=0.27.0
+python-multipart>=0.0.9
+
+# --- Dashboard & Visualization (Flask) ---
+flask>=3.0.0
+flask-cors>=4.0.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# --- Utilities ---
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# pip install -r requirements.txt
