@@ -1,4 +1,4 @@
-# 🛡️ ASIM ELITE IDS: Triple-Layer Hybrid Intelligence
+# 🛡️ ASIM's ELITE IDS: Triple-Layer Hybrid Intelligence
 **Next-Generation Autonomous Intrusion Detection System (v7.0)**
 
 ### 💎 Project Essence
