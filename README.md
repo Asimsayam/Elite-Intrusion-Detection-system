@@ -1,4 +1,4 @@
-# 🛡️ ASIM's ELITE IDS: Triple-Layer Hybrid Intelligence
+# 🛡️ ASIM ELITE IDS: Triple-Layer Hybrid Intelligence
 **Next-Generation Autonomous Intrusion Detection System (v7.0)**
 
 ### 💎 Project Essence
@@ -23,6 +23,17 @@ The core engine operates through three distinct security tiers to ensure absolut
     * **Engine:** Real-time Traffic Pulse Analyzer.
     * **Function:** Monitors network "Pulse" metrics like `custom_total_volume` and event frequency.
     * **Benefit:** Acts as an early warning system for DDoS attacks and volumetric network flooding.
+
+---
+
+### 📥 Data & Model Setup (Critical)
+To ensure the system functions correctly, follow these specific file organization steps:
+
+1.  **Dataset Acquisition:** Download all files from the [CICIDS2017 Dataset](https://www.kaggle.com/datasets/dhoogla/cicids2017).
+2.  **File Placement:** Place all downloaded CSV files into the **root folder** (the same folder where your Python code files are located).
+3.  **Model Directory:** Create a new folder named `Elite_IDS_Final_v3` inside the root directory.
+4.  **Training & Output:** Run the `sample.ipynb` notebook. After execution, the trained model files will be generated.
+5.  **Final Organization:** Move the resulting model files into the `Elite_IDS_Final_v3` folder. The system is programmed to load its intelligence from this specific path.
 
 ---
 
