@@ -1,5 +1,5 @@
 # 🛡️ ASIM ELITE IDS: Triple-Layer Hybrid Intelligence
-**Next-Generation Autonomous Intrusion Detection System (v7.0)**
+**Next-Generation Autonomous Intrusion Detection System (v6.9)**
 
 ### 💎 Project Essence
 **ASIM ELITE IDS** is a sophisticated cyber-defense framework engineered to detect, classify, and mitigate network threats in real-time. By utilizing a **Triple-Layer Hybrid Defense** strategy, the system eliminates security "Blind Spots" that traditional firewalls and signature-only tools often overlook.
@@ -65,6 +65,8 @@ Validated against over **300,000+ packets**, the system demonstrates industrial-
 5.  **Manual Audit:** Use `app.ipynb` for manual file-based scanning and result verification.
 
 ---
+### Project Video Link
+https://drive.google.com/file/d/1SQB7BEiNI4jif4udlNZBb3ImU-Ddw7WA/view?usp=sharing
 
 **Lead Architect:** **Asim Sayyam** **Specialization:** Hybrid AI-Driven Cyber Defense & Neural Anomaly Detection  
 *“Engineering intelligent, self-learning frameworks to secure next-generation network infrastructures.”*
